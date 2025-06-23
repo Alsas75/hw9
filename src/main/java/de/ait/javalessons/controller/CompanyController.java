@@ -15,11 +15,8 @@ public class CompanyController {
 
     private final CompanyProperties companyProperties;
 
-//    private final ExternalApiService  externalApiService;
-
     public CompanyController(CompanyProperties companyProperties) {
         this.companyProperties = companyProperties;
-//        this.externalApiService = externalApiService;
     }
 
     @GetMapping
